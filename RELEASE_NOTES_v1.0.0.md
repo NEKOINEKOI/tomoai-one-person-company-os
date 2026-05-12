@@ -1,4 +1,4 @@
-# One-Person Company OS v1.0.0
+# TOMOAI One-Person Company OS v1.0.0
 
 Initial public release.
 

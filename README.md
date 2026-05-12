@@ -1,4 +1,4 @@
-# One-Person Company OS
+# TOMOAI One-Person Company OS
 
 A Codex skill for diagnosing and operating a one-person company from idea validation to iteration.
 
@@ -17,13 +17,13 @@ The skill is designed for practical execution. It avoids generic startup advice 
 The installable skill is in:
 
 ```text
-one-person-company-os/
+tomoai-one-person-company-os/
 ```
 
 Core files:
 
 ```text
-one-person-company-os/
+tomoai-one-person-company-os/
   SKILL.md
   agents/openai.yaml
   references/

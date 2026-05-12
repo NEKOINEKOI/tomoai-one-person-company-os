@@ -1,9 +1,9 @@
 ---
-name: one-person-company-os
+name: tomoai-one-person-company-os
 description: One-person company operating system. Use when users discuss solo business, creator business, indie business, product idea validation, MVP design, first customers, cold start growth, pricing, commercial loops, AI workflows, digital workers, business review, iteration decisions, or whether to continue, pivot, or stop. Routes the user to idea validation, first customers, pricing and retention, AI automation, or minimalist review modules.
 ---
 
-# One-Person Company OS
+# TOMOAI One-Person Company OS
 
 This skill helps diagnose and operate a one-person company from idea to iteration. Do not give generic entrepreneurship advice. First identify the user's current stage, then load the smallest relevant module and produce an executable next step.
 

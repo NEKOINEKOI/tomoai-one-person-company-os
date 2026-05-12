@@ -5,7 +5,7 @@ Use these when creating the GitHub repository.
 ## Repository Name
 
 ```text
-one-person-company-os
+tomoai-one-person-company-os
 ```
 
 ## Description
@@ -54,13 +54,13 @@ v1.0.0
 ## Release Title
 
 ```text
-One-Person Company OS v1.0.0
+TOMOAI One-Person Company OS v1.0.0
 ```
 
 ## Release Summary
 
 ```text
-Initial public release of One-Person Company OS, a Codex skill for routing solo business questions into practical modules for idea validation, MVP design, first customers, pricing, AI workflows, and review.
+Initial public release of TOMOAI One-Person Company OS, a Codex skill for routing solo business questions into practical modules for idea validation, MVP design, first customers, pricing, AI workflows, and review.
 ```
 
 ## Suggested Release Assets
@@ -68,12 +68,12 @@ Initial public release of One-Person Company OS, a Codex skill for routing solo 
 Upload these files:
 
 ```text
-one-person-company-os.zip
-one-person-company-os-github-repo.zip
+tomoai-one-person-company-os.zip
+tomoai-one-person-company-os-github-repo.zip
 ```
 
 ## Short Social Post
 
 ```text
-Released One-Person Company OS: a Codex skill for solo business diagnosis, idea validation, MVP design, first customers, pricing, AI workflows, and iteration decisions.
+Released TOMOAI One-Person Company OS: a Codex skill for solo business diagnosis, idea validation, MVP design, first customers, pricing, AI workflows, and iteration decisions.
 ```

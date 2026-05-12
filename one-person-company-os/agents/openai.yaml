@@ -1,7 +1,0 @@
-interface:
-  display_name: "One-Person Company OS"
-  short_description: "A practical operating system for solo businesses."
-  default_prompt: "Use $one-person-company-os to diagnose my solo business and give me the next executable step."
-
-policy:
-  allow_implicit_invocation: true
