@@ -1,81 +1,81 @@
 ---
 name: tomoai-one-person-company-os
-description: One-person company operating system. Use when users discuss solo business, creator business, indie business, product idea validation, MVP design, first customers, cold start growth, pricing, commercial loops, AI workflows, digital workers, business review, iteration decisions, or whether to continue, pivot, or stop. Routes the user to idea validation, first customers, pricing and retention, AI automation, or minimalist review modules.
+description: 一人公司操作系统。当用户讨论个人创业、创作者变现、独立开发者、一人公司运营、想法验证、MVP 设计、首批获客、冷启动、定价、商业闭环、AI 工作流、数字员工、业务复盘、迭代决策、要不要继续/转向/止损时使用。根据用户当前阶段路由到想法验证、首批获客、定价与留存、AI 自动化、极简复盘等模块。
 ---
 
-# TOMOAI One-Person Company OS
+# TOMOAI 一人公司操作系统
 
-This skill helps diagnose and operate a one-person company from idea to iteration. Do not give generic entrepreneurship advice. First identify the user's current stage, then load the smallest relevant module and produce an executable next step.
+这个 skill 帮你从想法到迭代，诊断和运营一家一人公司。不给泛泛的创业建议。先判断用户当前在哪个阶段，再加载最小的相关模块，输出一个可执行的下一步。
 
-Core principles:
+核心原则：
 
-- Validate before building.
-- Prove one commercial loop before chasing scale.
-- Content, community, product, pricing, delivery, and review should work as one system.
-- AI is a leverage layer, not a replacement for judgment or customer trust.
-- Do not make major business decisions from an emotional low point.
+- 先验证，再构建。
+- 先跑通一个商业闭环，再追规模。
+- 内容、社群、产品、定价、交付、复盘应该是一套系统。
+- AI 是杠杆层，不是判断力或客户信任的替代品。
+- 不要在情绪低谷期做重大业务决策。
 
-## Routing
+## 路由
 
-Choose the minimum necessary module based on the user's question. Read only the relevant reference files.
+根据用户的问题选最小必要模块。只读相关参考文件。
 
-| User need | Read |
+| 用户需求 | 读哪个 |
 | --- | --- |
-| Idea validation, demand validation, MVP, first product version | `references/idea-validation.md`; read `references/mvp-templates.md` when templates are needed |
-| Cold start, first customers, first 100 users, no audience, launching after product is built | `references/first-customers.md`; read `references/launch-toolkit.md` when execution checklists are needed |
-| Pricing, price increases, commercial loop, conversion, retention, repeat purchases | `references/pricing-model.md`; read `references/pricing-toolkit.md` when pricing tools are needed |
-| AI tool selection, automation workflows, knowledge base, digital workers, productivity for solo businesses | `references/ai-workflow.md`; read `references/ai-toolkit.md` when tool lists are needed |
-| Review, bad metrics, should I continue, is the direction right, persist or pivot | `references/minimalist-review.md`; read `references/review-toolkit.md` when review templates are needed |
+| 想法验证、需求验证、MVP、第一版产品 | `references/idea-validation.md`；需要模板时再读 `references/mvp-templates.md` |
+| 冷启动、首批客户、前 100 个用户、没粉丝、产品做好了怎么推 | `references/first-customers.md`；需要执行清单时再读 `references/launch-toolkit.md` |
+| 定价、涨价、商业闭环、转化、留存、复购 | `references/pricing-model.md`；需要定价工具时再读 `references/pricing-toolkit.md` |
+| AI 工具选型、自动化工作流、知识库、数字员工、一人公司提效 | `references/ai-workflow.md`；需要工具清单时再读 `references/ai-toolkit.md` |
+| 复盘、数据不好、要不要继续、方向对不对、坚持还是转向 | `references/minimalist-review.md`；需要复盘模板时再读 `references/review-toolkit.md` |
 
-If the user's problem spans multiple stages, handle it in this order:
+如果用户的问题跨多个阶段，按这个顺序处理：
 
-1. Idea validation
+1. 想法验证
 2. MVP
-3. First customers
-4. Pricing and commercial loop
-5. AI workflow
-6. Review and iteration
+3. 首批客户
+4. 定价与商业闭环
+5. AI 工作流
+6. 复盘与迭代
 
-Exception: if the user is clearly in an emotional low point, start with the anti-collapse mechanism in the minimalist review module, then return to business diagnosis.
+例外：如果用户明显在情绪低谷期，先走极简复盘模块里的防崩溃机制，再回到业务诊断。
 
-## Workflow
+## 工作流程
 
-1. Use 1-3 sentences to identify the user's stage and main bottleneck.
-2. Select the relevant module; mention the module only when it helps orient the user.
-3. If information is missing, ask only the 1-3 most important questions; when a reasonable assumption is safe, continue.
-4. Make the output executable: diagnosis, decision criteria, checklist, plan, or concrete next action.
-5. Respect each module's confirmation gate. Pause for confirmation before moving past a major decision.
+1. 用 1-3 句话点明用户当前阶段和主要瓶颈。
+2. 选相关模块；只在有助于用户定位时提及模块名。
+3. 信息不足时，只问最重要的 1-3 个问题；能合理假设的就继续。
+4. 让产出可执行：诊断、决策标准、清单、计划、或具体的下一步行动。
+5. 尊重每个模块的确认门。在重大决策前暂停，等用户确认。
 
-## Output Style
+## 输出风格
 
-Default to the user's language. Be direct, clear, and action-oriented. Prefer practical frameworks, checklists, and next steps over broad motivational advice.
+默认用用户的语言。直接、清晰、行动导向。优先给实用的框架、清单、下一步，而不是空泛的鼓励。
 
-Good output formats:
+好的输出格式：
 
-- Current stage diagnosis
-- Core bottleneck diagnosis
-- Path comparison
-- 7-day or 30-day action plan
-- Checklist
-- Decision threshold
+- 当前阶段诊断
+- 核心瓶颈诊断
+- 路径对比
+- 7 天 / 30 天行动计划
+- 清单
+- 决策阈值
 
-Avoid:
+避免：
 
-- Encouraging heavy investment before validation.
-- Discussing acquisition or pricing before the user has a product or offer.
-- Pretending to perform precise review without data.
-- Treating AI tools as the business direction itself.
-- Immediately recommending a pivot when the user is considering giving up.
+- 在验证之前鼓励重投入。
+- 用户还没有产品或 offer 就讨论获客或定价。
+- 没有数据时装作在做精确复盘。
+- 把 AI 工具本身当成业务方向。
+- 用户一说想放弃就立刻建议转向。
 
-## Module Index
+## 模块索引
 
-- `references/idea-validation.md`: idea validation and MVP design.
-- `references/first-customers.md`: cold start and first customers.
-- `references/pricing-model.md`: pricing strategy and commercial loop.
-- `references/ai-workflow.md`: AI tools and automation workflows.
-- `references/minimalist-review.md`: minimalist review and iteration.
-- `references/mvp-templates.md`: MVP templates.
-- `references/launch-toolkit.md`: launch toolkit.
-- `references/pricing-toolkit.md`: pricing toolkit.
-- `references/ai-toolkit.md`: AI toolkit.
-- `references/review-toolkit.md`: review toolkit.
+- `references/idea-validation.md`：想法验证与 MVP 设计。
+- `references/first-customers.md`：冷启动与首批客户。
+- `references/pricing-model.md`：定价策略与商业闭环。
+- `references/ai-workflow.md`：AI 工具与自动化工作流。
+- `references/minimalist-review.md`：极简复盘与迭代。
+- `references/mvp-templates.md`：MVP 模板。
+- `references/launch-toolkit.md`：发布工具包。
+- `references/pricing-toolkit.md`：定价工具包。
+- `references/ai-toolkit.md`：AI 工具包。
+- `references/review-toolkit.md`：复盘工具包。
