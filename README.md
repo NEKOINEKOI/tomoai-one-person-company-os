@@ -114,4 +114,26 @@ This keeps the skill lightweight while still giving it enough operating depth to
 
 ## License
 
-MIT License.
+This project is licensed under **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
+
+- ✅ **Allowed**: Personal study, research, copying, modifying, and non-commercial sharing
+- ❌ **Prohibited**: Any commercial use (selling, renting, integrating into paid products, offering as a paid service, etc.)
+- 📋 **Required**: Preserve original author attribution
+
+For commercial licensing, please contact the author. See [LICENSE](LICENSE) for details.
+
+---
+
+<div align="center">
+
+**扫码关注公众号「智井AI」 / Scan to follow WeChat Official Account "智井AI"**
+
+<img src="https://raw.githubusercontent.com/NEKOINEKOI/tomoai-skills/main/docs/zhijing-ai-qrcode.png" alt="智井AI 公众号二维码" width="240" />
+
+</div>
+
+<div align="center">
+
+Made by [@NEKOINEKOI](https://github.com/NEKOINEKOI)
+
+</div>
